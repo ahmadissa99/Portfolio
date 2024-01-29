@@ -1,30 +1,24 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+## Homepage: Must haves
 
-## Must-Haves
+- As a user I can read clearly the title of the page
+  - [ ] _there is an impressive title at the top of the page <_
+- As a user I can read an introduction to this project
+  - [ ] \_there is a section describing the objectives of the project\_\_
+- As a user I can learn about this person/company
+  - [ ] _there is a main text in the page with helpful info and links_
 
-> these are necessary for basic usability
+## Homepage: should haves
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- As a user I can navigate the web sections from a navbar
+  - [ ] _as a user, a page that is not very coloured and has simple buttons can
+        help orientate_
+- As a user I can contact us to learn more about our specialist
+  - [ ] _there is a footer with contact_
 
-## Should-Haves
+## Homepage: could haves
 
-> these will complete the user experience, but are not necessary
+- as a user if I spend a lot of hours on your page
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
-
-## Could-Haves
-
-> would be really cool ... if there's time
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+  - [ ] _it would be great to adapt the page with a dark background color_

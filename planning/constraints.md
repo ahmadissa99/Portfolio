@@ -1,32 +1,26 @@
 # Constraints
 
-Some boundaries around our project.
-
 ## External
 
-<!--
-  constraints coming from the outside that your team has no control over.
-  These may include:
-  - project deadlines
-  - UI design or color schemes
-  - technologies (sometimes a client will tell you what to use)
--->
+- **Project Deadlines:** Complete the project within a two-days time frame.
+- **UI Design and Color Scheme:** Follow a minimalist UI design with a limited
+  color palette.
+- **Technologies:** Use agreed-upon technologies for implementing tree-related
+  functionalities.
 
 ## Internal: Involuntary
 
-<!--
-  constraints that come from within your team, and you have no control over.
-  They may include:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
+- **Time Management:** Given the two-days duration, efficient time management is
+  vital. It is imperative to ensure completion of all project aspects.
 
 ## Internal: Voluntary
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+- **Coding Style and Conventions:** follow a specific coding style and
+  conventions to maintain code consistency.
+
+- **Code Review Checklist:** A predefined checklist ensures a standardized
+  procedure for code reviews and approvals.
+
+- **Color Limitation:** To maintain a cohesive visual style, the project design
+  is restricted to black and white colors. The use of additional colors is
+  prohibited.
