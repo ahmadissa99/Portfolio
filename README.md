@@ -1,6 +1,8 @@
-# Name of project
+# Ahmad Portfolio
 
-> A longer description
+> Create a clean and user-friendly portfolio website.
+  Display my work with simplicity and clarity, ensuring visitors
+  easily navigate and appreciate your talents.
 
 ## Table of contents
 
@@ -22,21 +24,23 @@
 
 ## General info
 
-> A short description
+> Trying to improve my skills and learn more and figure out how
+to solve the problems 
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+<!-- ![Example screenshot](./planning/screenshot.jpg) -->
 
 ## Technologies
 
-- Node 14.16.0
-- VSC code
-- JavaScript
-- ...
-- ...
+- Node
+- VS code
+- HTMl
+- CSS
 
 ## Setup
+
+- `clone the project`
 
 - `npm run start`
 
@@ -49,28 +53,21 @@ console.log("Hello World");
 
 ## Features
 
-List of features ready and Todos for future development
-
--
--
--
+- landing page
+- add button to download my resume
 
 To-do list:
 
--
--
+- Add JavaScript
+- Add more animation
 
 ## Status
 
 Project is: _in progress_
 
-## Inspiration
-
-Project by freeCodeCamp.org
-
 ## Contact
 
-By [Name]
+[Ahmad](https://github.com/ahmadissa99)
 
 ## Instructions for use
 
