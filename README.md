@@ -4,24 +4,6 @@
 > simplicity and clarity, ensuring visitors easily navigate and appreciate your
 > talents.
 
-## Table of contents
-
-- [Name of project](#name-of-project)
-  - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
-  - [Screenshots](#screenshots)
-  - [Technologies](#technologies)
-  - [Setup](#setup)
-  - [Code Examples](#code-examples)
-  - [Features](#features)
-  - [Status](#status)
-  - [Inspiration](#inspiration)
-  - [Contact](#contact)
-  - [Instructions for use](#instructions-for-use)
-  - [Code Quality Checks](#code-quality-checks)
-  - [Continuous Integration (CI)](#continuous-integration-ci)
-  - [Repo Setup](#repo-setup)
-
 ## General info
 
 > Trying to improve my skills and learn more and figure out how to solve the
@@ -29,7 +11,7 @@
 
 ## Screenshots
 
-<!-- ![Example screenshot](./planning/screenshot.jpg) -->
+![Example screenshot](./planning/screenshot.png)
 
 ## Technologies
 
@@ -46,9 +28,27 @@
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```css
+<header>
+      <div class="container">
+        <a href="index.html" class="logo">Ai</a>
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#show-case">Showcase</a></li>
+          </ul>
+        </div>
+        <div class="more-contact">
+          <select name="languages">
+            <option value="en">En</option>
+            <option value="fr">Fr</option>
+            <option value="du">Du</option>
+          </select>
+          <i class="fa-solid fa-phone"></i>
+        </div>
+      </div>
+    </header>
 ```
 
 ## Features
@@ -63,7 +63,7 @@ To-do list:
 
 ## Status
 
-Project is: _in progress_
+Project is: _done_
 
 ## Contact
 
