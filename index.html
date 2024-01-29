@@ -1,171 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmad-Portfolio</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link href="./styles/index.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ahmad-Portfolio</title>
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap" rel="stylesheet" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link href="./styles/index.css" rel="stylesheet" />
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <a href="index.html">Ai</a>
-      <div class="nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Showcase</a></li>
-        </ul>
-      </div>
-      <div class="more-contact">
-        <select name="languages">
-          <option value="en">En</option>
-          <option value="fr">Fr</option>
-          <option value="du">Du</option>
-        </select>
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-  </header>
-  <div class="landing">
-    <img src="./public/landing-pic-shape.png" alt="shape" />
-    <div class="container">
-      <div class="landing-info">
-        <h1>Hi,<br />I am <span>Ahmad Issa</span></h1>
-        <p>A junior web designer weaving creativity into digital realms.</p>
-        <div class="landing-buttons">
-          <a href="#">Get in touch</a>
-          <a href="#">Download CV</a>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html" class="logo">Ai</a>
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#show-case">Showcase</a></li>
+          </ul>
+        </div>
+        <div class="more-contact">
+          <select name="languages">
+            <option value="en">En</option>
+            <option value="fr">Fr</option>
+            <option value="du">Du</option>
+          </select>
+          <i class="fa-solid fa-phone"></i>
         </div>
       </div>
-      <div class="landing-img">
-        <img src="./public/landing-pic.png" class="main-pic" alt="landing-pic" />
-        <img src="./public/landing-pic1.png" class="logo-s" alt="logo" />
-        <img src="./public/landing-pic2.png" alt="logo-d" />
+    </header>
+    <div class="landing">
+      <div class="container">
+        <div class="landing-info">
+          <h1>Hi,<br />I am <span>Ahmad Issa</span></h1>
+          <p>A junior web designer weaving creativity into digital realms.</p>
+          <div class="landing-buttons">
+            <a href="#" class="special">Get in touch</a>
+            <a href="#">Download CV</a>
+          </div>
+        </div>
+        <div class="landing-img">
+          <img
+            src="./public/landing-pic.png"
+            class="main-pic"
+            alt="landing-pic"
+          />
+          <img src="./public/landing-pic1.png" class="logo-s" alt="logo-s" />
+          <img src="./public/landing-pic2.png" class="logo-d" alt="logo-d" />
+        </div>
+        <img src="./public/landing-pic-shape.png" class="shape" alt="shape" />
       </div>
     </div>
-  </div>
-  <div class="about-me">
-    <div class="container">
-      <h1>About me</h1>
-      <p>
-        A junior front-end developer and budding UI/UX designer. Combining
-        coding finesse with a keen eye for user experience, I embark on a
-        journey to craft seamless and visually engaging websites. Explore my
-        portfolio to witness the intersection of code and design, where every
-        project reflects my commitment to creating delightful online
-        experiences.
-      </p>
-      <div class="about-me-info">
-        <div class="years">
-          <h3>1</h3>
-          <p>
-            Years of <br />
-            Experience
-          </p>
+    <div class="about-me" id="about-me">
+      <div class="container">
+        <h1>About me</h1>
+        <p class="about-special">
+          A junior front-end developer and budding UI/UX designer. Combining
+          coding finesse with a keen eye for user experience, I embark on a
+          journey to craft seamless and visually engaging websites. Explore my
+          portfolio to witness the intersection of code and design, where every
+          project reflects my commitment to creating delightful online
+          experiences.
+        </p>
+        <div class="about-me-info">
+          <div class="years">
+            <h3>1</h3>
+            <p>
+              Years of <br />
+              Experience
+            </p>
+          </div>
+          <div class="client">
+            <h3>2+</h3>
+            <p>
+              Client <br />
+              Served
+            </p>
+          </div>
         </div>
-        <div class="client">
-          <h3>2+</h3>
-          <p>
-            Client <br />
-            Served
-          </p>
-        </div>
-      </div>
-      <h3>Service I offer</h3>
-      <div class="services-card">
-        <div class="offer-1">
-          <i class="fa-solid fa-sheet-plastic"></i>
-          <h4>Wireframe</h4>
-          <p>
-            Crafting your roadmap for your digital vision, my wireframing
-            service ensure a strategic layout for a user-friendly design.
-            Experience thoughtful planning before pixels.
-          </p>
-        </div>
-        <div class="offer-2">
-          <i class="fa-solid fa-pen-nib"></i>
-          <h4>UI/UX</h4>
-          <p>
-            Elevate your digital presence with my UI/UX design service. I
-            blend aesthetics and functionality to create engaging,
-            user-friendly experiences that leave a lasting impression.
-          </p>
-        </div>
-        <div class="offer-3">
-          <i class="fa-solid fa-desktop"></i>
-          <h4>Front-End Development</h4>
-          <p>
-            As a front-end developer, I'm responsible for implementing the
-            visual elements users interact with, ensuring responsiveness, and
-            enhancing overall usability. This includes coding in languages
-            like HTML, CSS and JavaScript to bring designs to life.
-          </p>
+        <h3 class="service-heading">Service I offer</h3>
+        <div class="services-card">
+          <div class="offer-1">
+            <i class="fa-solid fa-sheet-plastic"></i>
+            <h4>Wireframe</h4>
+            <p>
+              Crafting your roadmap for your digital vision, my wireframing
+              service ensure a strategic layout for a user-friendly design.
+              Experience thoughtful planning before pixels.
+            </p>
+          </div>
+          <div class="offer-2">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h4>UI/UX</h4>
+            <p>
+              Elevate your digital presence with my UI/UX design service. I
+              blend aesthetics and functionality to create engaging,
+              user-friendly experiences that leave a lasting impression.
+            </p>
+          </div>
+          <div class="offer-3">
+            <i class="fa-solid fa-desktop"></i>
+            <h4>Front-End Development</h4>
+            <p>
+              As a front-end developer, I'm responsible for implementing the
+              visual elements users interact with, ensuring responsiveness, and
+              enhancing overall usability. This includes coding in languages
+              like HTML, CSS and JavaScript to bring designs to life.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="recent-project">
-    <div class="container">
-      <h1>Recent Project</h1>
-      <div class="projects-card">
-        <div class="project">
-          <img src="./public/project-1.png" alt="project-1" />
-          <h4>Digital Artist</h4>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit.
-          </p>
-        </div>
-        <div class="project">
-          <img src="./public/project-2.png" alt="project-2" />
-          <h4>Design Agency</h4>
-          <p>
-            cumque facere ipsa quisquam deleniti porro repellat atque aperiam.
-          </p>
-        </div>
-        <div class="project">
-          <img src="./public/project-3.jpeg" alt="project-3" />
-          <h4>Design Industry</h4>
-          <p>
-            nam sed quo corrupti expedita inventore vero sunt soluta
-            obcaecati!.
-          </p>
+    <div id="show-case" class="recent-project">
+      <div class="container">
+        <h1>Recent Project</h1>
+        <div class="projects-card">
+          <div class="project">
+            <img src="./public/project-1.png" alt="project-1" />
+            <h4>Digital Artist</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit.
+            </p>
+          </div>
+          <div class="project">
+            <img src="./public/project-2.png" alt="project-2" />
+            <h4>Design Agency</h4>
+            <p>
+              cumque facere ipsa quisquam deleniti porro repellat atque aperiam.
+            </p>
+          </div>
+          <div class="project">
+            <img src="./public/project-3.jpeg" alt="project-3" />
+            <h4>Design Industry</h4>
+            <p>
+              nam sed quo corrupti expedita inventore vero sunt soluta
+              obcaecati!.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="contact">
-    <div class="container">
-      <h1>Let's make something amazing</h1>
-      <p>Write to me</p>
-      <div class="contact-field">
-        <input type="text" placeholder="Type your message here" required />
-        <a href="#">Get a quote</a>
+    <div class="contact">
+      <div class="container">
+        <h1>Let's make something amazing</h1>
+        <p>Write to me</p>
+        <div class="contact-field">
+          <input type="text" placeholder="Type your message here" required />
+          <a href="">Get a quote</a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="footer">
-    <div class="container">
-      <a href="index.html">Ai</a>
-      <div class="nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Showcase</a></li>
-        </ul>
+    <div class="footer">
+      <div class="container">
+        <a href="index.html">Ai</a>
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#show-case">Showcase</a></li>
+          </ul>
+        </div>
+        <p>@2024. All right reserved</p>
       </div>
-      <p>@2024. All right reserved</p>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
