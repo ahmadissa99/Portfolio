@@ -1,8 +1,8 @@
 # Ahmad Portfolio
 
-> Create a clean and user-friendly portfolio website.
-  Display my work with simplicity and clarity, ensuring visitors
-  easily navigate and appreciate your talents.
+> Create a clean and user-friendly portfolio website. Display my work with
+> simplicity and clarity, ensuring visitors easily navigate and appreciate your
+> talents.
 
 ## Table of contents
 
@@ -24,8 +24,8 @@
 
 ## General info
 
-> Trying to improve my skills and learn more and figure out how
-to solve the problems 
+> Trying to improve my skills and learn more and figure out how to solve the
+> problems
 
 ## Screenshots
 

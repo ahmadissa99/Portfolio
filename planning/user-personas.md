@@ -1,18 +1,11 @@
 # User Personas
 
-<!-- some introduction -->
+## Freelancer or a Company
 
----
+- **Bio**: a team or a company searching for someone with a specific skills to
+  serve their project or work with.
 
-<!-- a persona -->
-
-## Their Role
-
-- **Bio**:
 - **Needs/Goals**:
-- **Frustrations**:
-- **Scenario 1**:
 
----
-
-<!-- more personas ... -->
+  - working on a web project
+  - Easy navigation and clear admission guidelines.
