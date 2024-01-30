@@ -131,6 +131,12 @@ header .more-contact select {
   }
 }
 
+@media (min-width: 430px) and (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+  }
+}
+
 /* End Header */
 
 /* Start Landing */
@@ -335,6 +341,18 @@ header .more-contact select {
     top: 423px;
     left: 520px;
     width: 100px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 768px) {
+  .landing .logo-s {
+    top: 257px;
+    left: 268px;
+  }
+
+  .landing .logo-d {
+    top: -50px;
+    left: 28px;
   }
 }
 
