@@ -141,7 +141,6 @@ header .more-contact select {
   position: absolute;
   top: 0px;
   left: 69px;
-  transform: rotate(25deg);
   animation-name: up-and-down;
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
@@ -231,6 +230,7 @@ header .more-contact select {
 @media (max-width: 768px) {
   .landing .container {
     flex-direction: column-reverse;
+    margin-top: 95px;
   }
 
   .landing .landing-buttons {
@@ -240,19 +240,40 @@ header .more-contact select {
 
   .landing .landing-info h1 {
     text-align: center;
+    font-size: 27px;
   }
 
   .landing .main-pic {
-    width: 570px;
+    width: 100%;
+  }
+
+  .landing .logo-s,
+  .landing .logo-d {
+    width: 75px;
   }
 
   .landing .logo-s {
-    top: 296px;
-    left: 385px;
+    top: 247px;
+    left: 276px;
   }
 
   .landing .logo-d {
     top: -29px;
+  }
+
+  .landing .shape {
+    transform: rotate(103deg);
+    left: -429px;
+  }
+
+  .landing-img {
+    margin-bottom: 50px;
+  }
+
+  .landing .landing-info p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
   }
 }
 
@@ -564,6 +585,17 @@ header .more-contact select {
 .footer p {
   color: #9b9b9b;
   font-size: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer .nav li a {
+    font-size: 10px;
+    margin: 0 17px;
+  }
+
+  .footer p {
+    font-size: 7px;
+  }
 }
 
 /* End Footer */
