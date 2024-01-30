@@ -118,6 +118,19 @@ header .more-contact select {
   }
 }
 
+@media (max-width: 388px) {
+  header .nav a {
+    margin-right: 33px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  header .container {
+    flex-direction: row;
+  }
+}
+
 /* End Header */
 
 /* Start Landing */
@@ -277,6 +290,54 @@ header .more-contact select {
   }
 }
 
+@media (max-width: 446px) {
+  .landing .shape {
+    transform: rotate(103deg);
+    left: -469px;
+    -webkit-transform: rotate(103deg);
+    -moz-transform: rotate(103deg);
+    -ms-transform: rotate(103deg);
+    -o-transform: rotate(103deg);
+  }
+}
+
+@media (max-width: 388px) {
+  .landing .shape {
+    display: none;
+  }
+
+  .landing .logo-s {
+    top: 156px;
+    left: 208px;
+  }
+
+  .landing .logo-d {
+    top: -29px;
+    left: 13px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .landing .logo-s {
+    top: 210px;
+    left: 253px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .landing .logo-d {
+    top: 16px;
+    width: 100px;
+    left: 102px;
+  }
+
+  .landing .logo-s {
+    top: 423px;
+    left: 520px;
+    width: 100px;
+  }
+}
+
 /* End Landing */
 
 /* Start About me */
@@ -335,6 +396,12 @@ header .more-contact select {
   .about-me .about-special {
     font-size: 11px;
     width: 378px;
+  }
+}
+
+@media (max-width: 388px) {
+  .about-me .about-special {
+    width: auto;
   }
 }
 
@@ -595,6 +662,21 @@ header .more-contact select {
 
   .footer p {
     font-size: 7px;
+  }
+}
+
+@media (max-width: 388px) {
+  .footer .container a {
+    font-size: 20px;
+  }
+
+  .footer .nav li a {
+    font-size: 7px;
+    margin: 0 11px;
+  }
+
+  .footer p {
+    font-size: 5px;
   }
 }
 
