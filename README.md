@@ -15,16 +15,16 @@
 
 ## Technologies
 
-- Node
+- Node 20.11.0
 - VS code
-- HTMl
+- HTML
 - CSS
 
 ## Setup
 
-- `clone the project`
+- `clone the repo`
 
-- `npm run start`
+- `npm run install`
 
 ## Code Examples
 
